@@ -35,7 +35,7 @@ is_plugin() {
 
 # Add all defined plugins to fpath. This must be done
 # before running compinit.
-for plugin in $ZSH/plugins/*; do
+for plugin in $ZSH/plugins/*(N); do
   if is_plugin "$ZSH" "$plugin"; then
     fpath=("$ZSH/plugins/$plugin" $fpath)
   fi
@@ -105,7 +105,7 @@ done
 unset lib_file
 
 # Load all of the plugins that were defined in ~/.zshrc
-for plugin in $ZSH/plugins/*; do
+for plugin in $ZSH/plugins/*(N); do
   source $plugin/plugin.zsh
 done
 
@@ -164,3 +164,23 @@ fi
 
 # set completion colors to be the same as `ls`, after theme has been loaded
 [[ -z "$LS_COLORS" ]] || zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+
+
+function auto_chmod() { /usr/bin/auto-chmod "$1" }
+autoload -Uz add-zsh-hook
+add-zsh-hook preexec auto_chmod
+
+
+case $(tty) in
+    tty[0-9])
+        ;;
+    (*)
+        if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+  		tmux attach -t default || tmux new-session -s default
+  		autoload -U add-zsh-hook
+  		zsh-hook preexec _zsh_tmux_plugin_preexec
+	fi
+        ;;
+esac
+
+

@@ -243,6 +243,8 @@ function fzf_setup_using_macports() {
   return 0
 }
 
+
+
 # Indicate to user that fzf installation not found if nothing worked
 function fzf_setup_error() {
   cat >&2 <<'EOF'
