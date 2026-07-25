@@ -14,3 +14,9 @@ ZSHRoot also makes using the terminal (let alone zsh itself) easier by adding al
 - Starship prompt by Default
 - Atuin out of the box.
 - Quick access to sudo (via escape key)
+- ENV VAR browsing via Ctrl-B
+- Venv support
+- change themes on the fly
+- Colored Help info
+
+  
