@@ -188,3 +188,5 @@ function _tmux_directory_session() {
 
 alias tds=_tmux_directory_session
 
+export TMUX_MENUS_HANDLER=1
+

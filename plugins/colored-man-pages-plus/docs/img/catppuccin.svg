@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">
+  <rect width="720" height="340" rx="10" fill="#1e1e2e"/>
+  <circle cx="20" cy="18" r="5" fill="#ff5f56"/><circle cx="38" cy="18" r="5" fill="#ffbd2e"/><circle cx="56" cy="18" r="5" fill="#27c93f"/>
+  <text x="360" y="22" fill="#cdd6f4" opacity="0.55" text-anchor="middle">man grep — catppuccin</text>
+role=punct
+  <text x="22" y="54" xml:space="preserve"><tspan font-weight="bold" fill="#cba6f7">SYNOPSIS</tspan></text>
+  <text x="22" y="76" xml:space="preserve"><tspan fill="#cdd6f4">     </tspan><tspan fill="#89dceb">grep</tspan><tspan fill="#cdd6f4"> </tspan><tspan fill="#6c7086">[</tspan><tspan font-weight="bold" fill="#f5c2e7">-i</tspan><tspan fill="#6c7086">]</tspan><tspan fill="#cdd6f4"> </tspan><tspan fill="#6c7086">[</tspan><tspan font-weight="bold" fill="#f5c2e7">--color</tspan><tspan fill="#6c7086">[=</tspan><tspan font-style="italic" fill="#fab387">WHEN</tspan><tspan fill="#6c7086">]]</tspan><tspan fill="#cdd6f4"> </tspan><tspan font-style="italic" fill="#fab387">PATTERNS</tspan><tspan fill="#cdd6f4"> </tspan><tspan fill="#6c7086">[</tspan><tspan font-style="italic" fill="#fab387">FILE</tspan><tspan fill="#cdd6f4">...</tspan><tspan fill="#6c7086">]</tspan></text>
+  <text x="22" y="120" xml:space="preserve"><tspan font-weight="bold" fill="#cba6f7">DESCRIPTION</tspan></text>
+  <text x="22" y="142" xml:space="preserve"><tspan fill="#cdd6f4">     </tspan><tspan font-weight="bold" fill="#f5c2e7">-i</tspan><tspan fill="#cdd6f4">, </tspan><tspan font-weight="bold" fill="#f5c2e7">--ignore-case</tspan><tspan fill="#cdd6f4">        ignore case distinctions</tspan></text>
+  <text x="22" y="164" xml:space="preserve"><tspan fill="#cdd6f4">     </tspan><tspan font-weight="bold" fill="#f5c2e7">-r</tspan><tspan fill="#cdd6f4">, </tspan><tspan font-weight="bold" fill="#f5c2e7">--recursive</tspan><tspan fill="#cdd6f4">         search directories recursively</tspan></text>
+  <text x="22" y="208" xml:space="preserve"><tspan fill="#cdd6f4">     </tspan><tspan fill="#89dceb">grep</tspan><tspan fill="#cdd6f4"> </tspan><tspan font-weight="bold" fill="#f5c2e7">-r</tspan><tspan fill="#cdd6f4"> </tspan><tspan fill="#f9e2af">'TODO'</tspan><tspan fill="#cdd6f4"> </tspan><tspan text-decoration="underline" fill="#a6e3a1">~/src</tspan><tspan fill="#cdd6f4"> </tspan><tspan text-decoration="underline" fill="#a6e3a1">/var/log</tspan></text>
+  <text x="22" y="252" xml:space="preserve"><tspan font-weight="bold" fill="#cba6f7">SEE ALSO</tspan></text>
+  <text x="22" y="274" xml:space="preserve"><tspan fill="#cdd6f4">     </tspan><tspan fill="#89dceb">egrep(1)</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#89dceb">fgrep(1)</tspan><tspan fill="#cdd6f4">, </tspan><tspan fill="#89dceb">re_format(7)</tspan></text>
+</svg>

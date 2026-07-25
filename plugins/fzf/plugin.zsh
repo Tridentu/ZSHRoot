@@ -248,7 +248,7 @@ function fzf_setup_using_macports() {
 # Indicate to user that fzf installation not found if nothing worked
 function fzf_setup_error() {
   cat >&2 <<'EOF'
-[oh-my-zsh] fzf plugin: Cannot find fzf installation directory.
+[ZSHRoot] fzf plugin: Cannot find fzf installation directory.
 Please add `export FZF_BASE=/path/to/fzf/install/dir` to your .zshrc
 EOF
 }

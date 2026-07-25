@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="340" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">
+  <rect width="720" height="340" rx="10" fill="#282828"/>
+  <circle cx="20" cy="18" r="5" fill="#ff5f56"/><circle cx="38" cy="18" r="5" fill="#ffbd2e"/><circle cx="56" cy="18" r="5" fill="#27c93f"/>
+  <text x="360" y="22" fill="#ebdbb2" opacity="0.55" text-anchor="middle">man grep — gruvbox</text>
+role=punct
+  <text x="22" y="54" xml:space="preserve"><tspan font-weight="bold" fill="#83a598">SYNOPSIS</tspan></text>
+  <text x="22" y="76" xml:space="preserve"><tspan fill="#ebdbb2">     </tspan><tspan fill="#8ec07c">grep</tspan><tspan fill="#ebdbb2"> </tspan><tspan fill="#928374">[</tspan><tspan font-weight="bold" fill="#d3869b">-i</tspan><tspan fill="#928374">]</tspan><tspan fill="#ebdbb2"> </tspan><tspan fill="#928374">[</tspan><tspan font-weight="bold" fill="#d3869b">--color</tspan><tspan fill="#928374">[=</tspan><tspan font-style="italic" fill="#fe8019">WHEN</tspan><tspan fill="#928374">]]</tspan><tspan fill="#ebdbb2"> </tspan><tspan font-style="italic" fill="#fe8019">PATTERNS</tspan><tspan fill="#ebdbb2"> </tspan><tspan fill="#928374">[</tspan><tspan font-style="italic" fill="#fe8019">FILE</tspan><tspan fill="#ebdbb2">...</tspan><tspan fill="#928374">]</tspan></text>
+  <text x="22" y="120" xml:space="preserve"><tspan font-weight="bold" fill="#83a598">DESCRIPTION</tspan></text>
+  <text x="22" y="142" xml:space="preserve"><tspan fill="#ebdbb2">     </tspan><tspan font-weight="bold" fill="#d3869b">-i</tspan><tspan fill="#ebdbb2">, </tspan><tspan font-weight="bold" fill="#d3869b">--ignore-case</tspan><tspan fill="#ebdbb2">        ignore case distinctions</tspan></text>
+  <text x="22" y="164" xml:space="preserve"><tspan fill="#ebdbb2">     </tspan><tspan font-weight="bold" fill="#d3869b">-r</tspan><tspan fill="#ebdbb2">, </tspan><tspan font-weight="bold" fill="#d3869b">--recursive</tspan><tspan fill="#ebdbb2">         search directories recursively</tspan></text>
+  <text x="22" y="208" xml:space="preserve"><tspan fill="#ebdbb2">     </tspan><tspan fill="#8ec07c">grep</tspan><tspan fill="#ebdbb2"> </tspan><tspan font-weight="bold" fill="#d3869b">-r</tspan><tspan fill="#ebdbb2"> </tspan><tspan fill="#fabd2f">'TODO'</tspan><tspan fill="#ebdbb2"> </tspan><tspan text-decoration="underline" fill="#b8bb26">~/src</tspan><tspan fill="#ebdbb2"> </tspan><tspan text-decoration="underline" fill="#b8bb26">/var/log</tspan></text>
+  <text x="22" y="252" xml:space="preserve"><tspan font-weight="bold" fill="#83a598">SEE ALSO</tspan></text>
+  <text x="22" y="274" xml:space="preserve"><tspan fill="#ebdbb2">     </tspan><tspan fill="#8ec07c">egrep(1)</tspan><tspan fill="#ebdbb2">, </tspan><tspan fill="#8ec07c">fgrep(1)</tspan><tspan fill="#ebdbb2">, </tspan><tspan fill="#8ec07c">re_format(7)</tspan></text>
+</svg>

@@ -1,0 +1,26 @@
+# RELEASE — zsh-snap-rollback
+
+Version:  v1.2
+Date:     2026-04-12
+Platform: openSUSE Tumbleweed
+Shell:    zsh 5.9+
+
+---
+
+## What's in this release
+
+### v1.2 — Auto sudo detection
+- Detects if sudo is required for snapper — compatible with ALLOW_USERS/ALLOW_GROUPS
+
+### v1.1 — Robust parsing + post-rollback check
+- Replaced `│`-based parsing with `snapper --csvout` — locale-independent
+- Post-rollback exit code verification — no false success message
+- Fallback to `sudo snapper list` if snap-list plugin is absent
+
+### v1.0 — Initial release
+- Guided rollback flow: `snap-rollback` lists all snapshots, user picks a number
+- Target snapshot summary: date, type, importance, description
+- Double safety: explicit irreversibility warning + `[y/N]` confirmation
+- Dry-run mode: `snap-rollback <id> --dry-run` simulates without executing
+- Reboot reminder after rollback completion
+- Depends on zsh-snap-list for the guided display
