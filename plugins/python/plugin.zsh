@@ -1,5 +1,6 @@
 # set python command if 'py' not installed
 builtin which py > /dev/null || alias py='python3'
+autoload -U add-zsh-hook
 
 # Find python file
 alias pyfind='find . -name "*.py"'

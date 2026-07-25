@@ -1,0 +1,43 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "docs/**"
+      - "**.md"
+  pull_request:
+    branches:
+      - master
+    paths-ignore:
+      - "docs/**"
+      - "**.md"
+
+jobs:
+  main:
+    name: Tests
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+          fetch-depth: 0 
+          
+      - name: Install Zsh
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install zsh
+
+      - name: Zsh Version
+        run: zsh --version
+
+      - name: Initialize Submodules
+        run: make init
+
+      - name: Run Tests
+        run: make test
